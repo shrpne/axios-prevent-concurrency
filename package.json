@@ -1,0 +1,35 @@
+{
+  "name": "axios-prevent-concurrency",
+  "version": "0.0.1",
+  "description": "Prevent concurrent request",
+  "homepage": "https://github.com/shrpne/axios-prevent-concurrency",
+  "repository": "https://github.com/shrpne/axios-prevent-concurrency.git",
+  "license": "MIT",
+  "author": "shrpne <shrpne@gmail.com>",
+  "keywords": [
+    "axios",
+    "concurrency",
+    "extensions",
+    "adapter"
+  ],
+  "type": "module",
+  "main": "./src/axios-prevent-concurrency.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "tsc --project tsconfig.json"
+  },
+  "files": [
+    "esm",
+    "lib",
+    "dist"
+  ],
+  "dependencies": {
+    "axios-extensions": "^3.1.6"
+  },
+  "peerDependencies": {
+    "axios": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
