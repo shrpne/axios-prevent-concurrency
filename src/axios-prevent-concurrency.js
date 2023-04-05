@@ -1,3 +1,5 @@
+/// <reference path="./axios-prevent-concurrency.d.ts" />
+/// <reference path="../node_modules/axios-extensions/lib/cacheAdapterEnhancer.d.ts" />
 import axios from 'axios';
 import buildSortedURL from 'axios-extensions/esm/utils/buildSortedURL.js';
 
